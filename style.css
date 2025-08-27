@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(243, 206, 191);
+}
+#logo{
+margin-top: 2px;
+}
+#navbar{
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    border: 2px;
+    border-color: rgb(246, 212, 191);
+}
+#image1, #image2, #image3, #image4, #image5, #image6 {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 60px auto;
+}
+
+#main{
+    background-color: rgb(243, 206, 191);
+}
+
+#text1, #title1, #title2, #title3, #title4, #title5, #title6 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom:10px;
+
+}
